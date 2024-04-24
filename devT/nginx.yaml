@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx3
+  labels:
+    otra: mi_etiqueta
+spec:
+  containers:
+   - name: nginx   
+     image: httpd
